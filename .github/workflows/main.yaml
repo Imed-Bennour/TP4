@@ -16,4 +16,4 @@ jobs:
       - name: List files
         run: ls -R
       - name: Run bisect
-        run: python Scripts/myscript.py
+        run: python ../myscript.py

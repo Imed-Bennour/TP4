@@ -14,4 +14,4 @@ jobs:
       - name: Install packages
         run: pip install -r requirements.txt
       - name: Run bisect
-        run: python TP4/TP4/Scripts/myscript.py
+        run: python myscript.py

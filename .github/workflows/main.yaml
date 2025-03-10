@@ -13,5 +13,7 @@ jobs:
           python-version: "3.9"
       - name: Install packages
         run: pip install -r requirements.txt
+      - name: List files
+        run: ls -R
       - name: Run bisect
-        run: python myscript.py
+        run: python TP4/Scripts/myscript.py
